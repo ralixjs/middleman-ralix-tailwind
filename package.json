@@ -1,17 +1,17 @@
 {
   "name": "middleman-ralix",
   "scripts": {
-    "start": "NODE_ENV=development ./node_modules/webpack/bin/webpack.js --watch -d --color",
-    "build": "NODE_ENV=production ./node_modules/webpack/bin/webpack.js --bail -p"
+    "start": "NODE_ENV=development ./node_modules/webpack/bin/webpack.js --watch --color",
+    "build": "NODE_ENV=production ./node_modules/webpack/bin/webpack.js --bail"
   },
   "dependencies": {
     "ralix": "^0.9.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.1.5",
-    "@babel/preset-env": "^7.1.5",
-    "babel-loader": "^8.0.4",
-    "webpack": "^4.19.1",
-    "webpack-cli": "^3.1.2"
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "babel-loader": "^8.2.3",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.2"
   }
 }
