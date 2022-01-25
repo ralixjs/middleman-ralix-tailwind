@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= config[:title] %> - <%= current_page.data.title %></title>
+    <%= stylesheet_link_tag "styles" %>
+  </head>
+  <body>
+    <div id="app">
+      <%= yield %>
+    </div>
+    <%= javascript_include_tag "bundle" %>
+  </body>
+</html>
