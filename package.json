@@ -1,8 +1,8 @@
 {
   "name": "middleman-ralix",
   "scripts": {
-    "start": "NODE_ENV=development ./node_modules/webpack/bin/webpack.js --watch --color",
-    "build": "NODE_ENV=production ./node_modules/webpack/bin/webpack.js --bail"
+    "start": "webpack --mode=development --watch --color",
+    "build": "webpack --mode=production"
   },
   "dependencies": {
     "ralix": "^0.9.0"

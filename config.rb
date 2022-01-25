@@ -9,3 +9,10 @@ activate :external_pipeline,
 configure :development do
   activate :livereload
 end
+
+configure :build do
+  ignore File.join(config[:js_dir], '*') # handled by webpack
+  activate :asset_hash
+  activate :minify_css
+  activate :relative_assets
+end
