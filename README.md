@@ -1,4 +1,4 @@
-# Middleman-Ralix-Tailwind
+# Middleman + Ralix + Tailwind
 
 > Starter Kit to build static modern websites fast
 
