@@ -1,5 +1,5 @@
 {
-  "name": "middleman-ralix",
+  "name": "middleman-ralix-tailwind",
   "private": true,
   "scripts": {
     "start": "webpack --mode=development --watch --color",
