@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-800 text-white
+}
+
+h1 {
+  @apply text-6xl font-bold mb-3
+}
+
+.btn {
+  @apply bg-cyan-600 py-3 px-6 rounded text-xl
+}

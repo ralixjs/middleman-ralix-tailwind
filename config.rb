@@ -1,4 +1,4 @@
-set :title, "Middleman-Ralix Starter Kit"
+set :title, "Middleman-Ralix-Tailwind Starter Kit"
 
 activate :external_pipeline,
          name: :webpack,
@@ -11,7 +11,7 @@ configure :development do
 end
 
 configure :build do
-  ignore File.join(config[:js_dir], '*') # handled by webpack
+  ignore File.join(config[:js_dir], '*') # handled by Webpack
   activate :asset_hash
   activate :minify_css
   activate :relative_assets

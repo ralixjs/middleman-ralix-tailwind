@@ -2,12 +2,10 @@
 <html>
   <head>
     <title><%= config[:title] %> - <%= current_page.data.title %></title>
-    <%= stylesheet_link_tag "styles" %>
+    <%= stylesheet_link_tag "application" %>
   </head>
   <body>
-    <div id="app">
-      <%= yield %>
-    </div>
-    <%= javascript_include_tag "bundle" %>
+    <%= yield %>
+    <%= javascript_include_tag "application" %>
   </body>
 </html>
