@@ -114,7 +114,7 @@ PLATFORMS
 
 DEPENDENCIES
   middleman
-  middleman-livereload (~> 3.4)
+  middleman-livereload
 
 BUNDLED WITH
    2.2.16
