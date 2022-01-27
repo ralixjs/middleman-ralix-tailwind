@@ -5,14 +5,14 @@
 Powered by:
 
 - [Middleman](https://middlemanapp.com)
-- [Webpack](https://github.com/webpack/webpack)
 - [Ralix](https://github.com/ralixjs/ralix)
 - [Tailwind CSS](https://tailwindcss.com)
+- [Webpack](https://github.com/webpack/webpack)
 - [PostCSS](https://postcss.org)
 
 ## Install
 
-**Requirements**
+### Requirements
 
 - Ruby
 - Node.js

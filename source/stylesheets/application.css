@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-slate-800 text-white
+  @apply p-6 bg-slate-800 text-white
 }
 
 h1 {
@@ -11,5 +11,5 @@ h1 {
 }
 
 .btn {
-  @apply bg-cyan-600 py-3 px-6 rounded text-xl
+  @apply bg-violet-600 py-3 px-6 rounded text-xl
 }
