@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 body {
-  @apply p-6 bg-slate-800 text-white
+  @apply p-6 bg-slate-800 text-white;
 }
 
 h1 {
-  @apply text-6xl font-bold mb-3
+  @apply text-6xl font-bold mb-3;
 }
 
 .btn {
-  @apply bg-violet-600 py-3 px-6 rounded text-xl
+  @apply bg-violet-600 py-3 px-6 rounded text-xl;
 }

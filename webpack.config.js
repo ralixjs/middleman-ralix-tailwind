@@ -1,12 +1,15 @@
-const path = require('path');
+const path = require('path')
 
 module.exports = {
   entry: {
-    application: ['./source/javascripts/application.js', './source/stylesheets/application.css']
+    application: [
+      './source/javascripts/application.js',
+      './source/stylesheets/application.css'
+    ]
   },
   output: {
-    filename: '[name].js',
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, 'dist'),
+    filename: '[name].js'
   },
   module: {
     rules: [
@@ -29,10 +32,7 @@ module.exports = {
             loader: 'postcss-loader',
             options: {
               postcssOptions: {
-                plugins: [
-                  ['tailwindcss'],
-                  ['autoprefixer']
-                ]
+                plugins: ['tailwindcss']
               }
             }
           }
@@ -40,4 +40,4 @@ module.exports = {
       }
     ]
   }
-};
+}
