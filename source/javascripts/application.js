@@ -1,5 +1,5 @@
 import { RalixApp } from 'ralix'
-import AppCtrl from './controllers/app_ctrl'
+import AppCtrl from './controllers/app'
 
 const App = new RalixApp({
   routes: {
