@@ -6,7 +6,7 @@
     "build": "webpack --mode=production"
   },
   "dependencies": {
-    "ralix": "^1.0.0"
+    "ralix": "^1.1.0"
   },
   "devDependencies": {
     "css-loader": "^6.5.1",

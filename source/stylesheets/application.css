@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply p-6 bg-slate-800 text-white;
+  @apply p-2 bg-slate-800 text-white;
 }
 
 h1 {
