@@ -87,7 +87,7 @@ GEM
     parallel (1.21.0)
     parslet (2.0.0)
     public_suffix (4.0.6)
-    rack (2.2.3)
+    rack (2.2.6.2)
     rack-livereload (0.3.17)
       rack
     rb-fsevent (0.11.1)
@@ -111,6 +111,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-17
+  x86_64-linux
 
 DEPENDENCIES
   middleman (~> 4.4)
