@@ -7,8 +7,7 @@ Powered by:
 - [Middleman](https://middlemanapp.com)
 - [Ralix](https://github.com/ralixjs/ralix)
 - [Tailwind CSS](https://tailwindcss.com)
-- [Webpack](https://github.com/webpack/webpack)
-- [PostCSS](https://postcss.org)
+- [esbuild](https://esbuild.github.io)
 
 ## Install
 
@@ -29,7 +28,7 @@ Clone this repository (or use the GitHub *template* button), then `cd` into the 
 Start a local development server:
 
 ```
-> bin/start
+> bin/dev
 ```
 
 ## Build

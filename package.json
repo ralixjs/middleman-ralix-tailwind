@@ -2,19 +2,17 @@
   "name": "middleman-ralix-tailwind",
   "private": true,
   "scripts": {
-    "start": "webpack --mode=development --watch --color",
-    "build": "webpack --mode=production"
+    "dev": "yarn dev:js & yarn dev:css",
+    "build": "yarn build:js & yarn build:css",
+    "dev:js": "esbuild ./source/javascripts/application.js --bundle --watch=forever --outdir=dist",
+    "build:js": "esbuild ./source/javascripts/application.js --bundle --minify --outdir=dist",
+    "dev:css": "tailwindcss -i ./source/stylesheets/application.css -o ./dist/application.css --watch",
+    "build:css": "tailwindcss -i ./source/stylesheets/application.css -o ./dist/application.css --minify"
   },
   "dependencies": {
-    "ralix": "^1.3.0"
-  },
-  "devDependencies": {
-    "css-loader": "^6.5.1",
-    "postcss": "^8.4.31",
-    "postcss-loader": "^6.2.1",
-    "style-loader": "^3.3.1",
-    "tailwindcss": "^3.2.4",
-    "webpack": "^5.94.0",
-    "webpack-cli": "^4.9.2"
+    "@tailwindcss/cli": "^4.1.11",
+    "esbuild": "^0.25.0",
+    "ralix": "^1.7.0",
+    "tailwindcss": "^4.1.11"
   }
 }

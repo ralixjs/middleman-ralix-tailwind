@@ -1,9 +1,9 @@
 set :title, "Middleman-Ralix-Tailwind Starter Kit"
 
 activate :external_pipeline,
-         name: :webpack,
-         command: build? ? 'yarn run build' : 'yarn run start',
-         source: 'dist',
+         name: :esbuild,
+         command: build? ? "yarn build" : "yarn dev",
+         source: "dist",
          latency: 1
 
 configure :development do
@@ -11,8 +11,7 @@ configure :development do
 end
 
 configure :build do
-  ignore File.join(config[:js_dir], '*') # handled by Webpack
+  ignore File.join(config[:js_dir], '*') # handled by External Pipeline
   activate :asset_hash
-  activate :minify_css
   activate :relative_assets
 end

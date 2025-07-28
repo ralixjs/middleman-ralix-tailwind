@@ -1,5 +1,0 @@
-module.exports = {
-  content: [
-    './source/**/*'
-  ]
-}
