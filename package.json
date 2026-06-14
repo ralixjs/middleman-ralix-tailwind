@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.11",
-    "esbuild": "^0.25.0",
+    "esbuild": "^0.28.1",
     "ralix": "^1.8.0",
     "tailwindcss": "^4.1.11"
   }
